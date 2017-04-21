@@ -24,7 +24,7 @@ $( function() {
   $("#post_page_detail").droppable();
   $(".sb_SelectedWorkDescription").draggable();
   $(".sb_SelectedWorkDescription").droppable();
-  $( ".sb_title" ).toggle("slow");
+  $( ".sb_title" ).fadeIn("slow");
 
 
 } );
