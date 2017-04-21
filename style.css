@@ -1,0 +1,100 @@
+body
+{
+  font-family: monospace;
+}
+
+#DIVMenu
+{
+  display: inline-flex;
+  text-decoration: none;
+}
+#SPANMenu :hover
+{
+  background-color: lightblue;
+  text-decoration: none;
+
+}
+.LayoutMenuItemSelected
+{
+  background-color: lightblue;
+}
+
+#TriColumnDiv
+{
+  background-color: #fda;
+}
+
+#TDContent2
+{
+  background-color: #fdb;
+  margin-top: 30px;
+  border-style: solid;
+  border-color: black;
+  margin-top: 100px;
+
+
+}
+
+.ContentHeader
+{
+  font-size: 22px;
+}
+
+.ContentParagraph
+{
+  font-size: 20px;
+}
+
+.sb_content_image_center
+{
+  margin-left: -500px;
+
+}
+
+.MediumHeader
+{
+  font-size: 22px;
+}
+
+#TDContent34
+{
+  border-style: solid;
+  border-color: black;
+  margin: 5px;
+}
+
+.sb_SelectedWorkDescription
+{
+  display: inline;
+  margin: 5px;
+}
+
+.SubContentCategory
+{
+  display: inline-block;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.QuickLink
+{
+  font-size: 18px;
+  margin: 10px;
+}
+
+#TDContent3
+{
+  padding: 10px;
+
+}
+
+.MediumHeader, .ContentHeader  {
+    animation-name: animate;
+    animation-duration: 1s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes animate {
+    0%   {color: grey;}
+    100% {color: black;}
+}
